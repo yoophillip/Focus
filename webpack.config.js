@@ -29,6 +29,7 @@ module.exports = {
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
 
             },
+        
         ],
     },
     devServer: {
@@ -37,7 +38,7 @@ module.exports = {
         },
         port: 8080,
         proxy: {
-            '/': 'localhost:3000',
+            '/': 'http://localhost:3000',
         },
     },
 };

@@ -1,0 +1,277 @@
+body {
+    background-color: rgb(136, 163, 144);
+    color: #eee;
+}
+
+main {
+    padding-top: 50px;
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.timer {
+    font-size: 10em;
+}
+
+.loginbtn {
+    border-radius: 1em;
+    background-color: rgb(114, 193, 224);
+    cursor: pointer;
+     border-radius: 5em;
+     color: #fff;
+     border: 0;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 15%;
+     font-size: 20px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+
+.signoutbtn {
+    border-radius: 1em;
+    background-color: rgb(220, 48, 48);
+    cursor: pointer;
+     border-radius: 5em;
+     color: #fff;
+     border: 0;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 10%;
+     font-size: 20px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+     position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+input {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 50%;
+    margin: 12em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    padding-top: 2%;
+}
+
+.welcome {
+    text-align: center;
+    color: rgb(132, 223, 158);
+    margin-bottom: 15%;
+}
+
+.timer {
+    padding-top: 5em;
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5em;
+    padding-left: 2em;
+    
+}
+
+.focusHeader {
+    font-size: 5em;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    padding-left: 4em;
+    
+
+}
+
+.goals {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    background-color: rgba(90, 80, 80, 0.6);
+    height: 100vh;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.sessions {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.startbtn {
+    font-weight: bold;
+    border-radius: .5em;
+    background-color: rgb(53, 171, 42);
+    cursor: pointer;
+     color: #fff;
+     border: 0;
+     padding-left: 25px;
+     padding-right: 20px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 40%;
+     font-size: 25px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+     letter-spacing: .2em;
+}
+
+.resetbtn {
+    font-weight: bold;
+    border-radius: .5em;
+    background-color: rgb(212, 43, 43);
+    cursor: pointer;
+     color: #fff;
+     border: 0;
+     padding-left: 25px;
+     padding-right: 20px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 5%;
+     font-size: 24px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+     letter-spacing: .2em;
+}
+
+.timerbtns {
+    margin: 0 auto;
+    padding: .5em;
+    padding-left: 12em;
+}
+
+.registerLink {
+    border-radius: 1em;
+    background-color: rgb(111, 207, 121);
+    cursor: pointer;
+     border-radius: 5em;
+     color: #fff;
+     border: 0;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 10%;
+     font-size: 20px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+     text-decoration: none;
+}
+
+.registerbtn {
+    border-radius: 1em;
+    background-color: rgb(111, 207, 121);
+    cursor:pointer;
+     color: #fff;
+     border: 0;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 35%;
+     font-size: 20px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+     text-decoration: none;
+     margin-bottom: 1em;
+     margin-top: .2em;
+}
+
+.registerback {
+    border-radius: 1em;
+    background-color: rgb(114, 193, 224);
+    cursor: pointer;
+     color: #fff;
+     border: 0;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 27%;
+     font-size: 20px;
+     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.loginmsg {
+    text-align: center;
+    color: rgb(223, 135, 132);
+    margin-bottom: 5%;
+    font-size: 1em;
+}
+
+#dateString {
+    margin: 0;
+    font-size: 34px;
+    color: #343a40;
+    text-align: center;
+}
+
+.time {
+    color: #343a40;
+    font-size: 35px;
+    padding-left: 0.2em;
+}
+
+.dateHeader {
+    padding-top: 1em;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: column;
+    // margin-bottom: 
+    border-bottom: 1px solid #e9ecef;
+}
+
+input.checkers {
+   width:40px;
+   height: 40px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.medal {
+  margin: 10px;
+  height: 5px;
+  margin-left: 1.2em;
+}
+
+.description {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 9em;
+}
